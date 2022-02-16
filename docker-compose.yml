@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  wolfx-postgres:
+    image: postgres:13
+    container_name: wolfx-postgres
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+    - 5432:5432
