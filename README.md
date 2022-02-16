@@ -1,5 +1,8 @@
 # WolfX sample codes
 
+[![CI](https://github.com/yackrru/wolfx-sample/actions/workflows/ci.yml/badge.svg)](https://github.com/yackrru/wolfx-sample/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/yackrru/wolfx-sample/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/yackrru/wolfx-sample/actions/workflows/codeql-analysis.yml)
+
 ## Prepare
 Launch postgres container with database=postgres,username=postgres,password=postgres and port 5432 is mapped on host PC.
 ```
